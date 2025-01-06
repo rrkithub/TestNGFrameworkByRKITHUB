@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="3">
+	<listeners></listeners>
+	<test name="test" >
+		<classes>
+			<class name="example.example.tests.GoogleSearchTest" />
+			<class name="example.example.tests.Guru99Logintest"></class>
+			<class name="example.example.tests.FaceBookLoginTest"></class>
+			<class name="example.example.tests.AmazonLoginTest"></class>
+			<class name="example.example.tests.Guru99registrationTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
